@@ -23,5 +23,4 @@
   *where (x,y) is the position of the data point*
 
 ## Demo Results
-Insert gif:
-Insert gif:
+![Demo Result](Demo.gif)
