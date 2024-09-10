@@ -1,15 +1,20 @@
-Project to start learning about the perceptron using Juypiter Notebook
+# Simple Perceptron Model
 
-Data is generated through 2 seperate normally distributed points 
+## Objective
+Project to start learning about the simple perceptron neural network and supervised learning
+Labelled dataset is produced through 2 seperate normally distributed data points
+Aim: Seperate the data into 2 discrete classes through linear regression
 
-Model of perceptron neural network and supervised learning
+## Method
+Model utilises the **sigmoid activation function** to determine the probability for a data point to be placed within the positive region
+The **cross entropy error** is calculated to determine the error of the regression line
+**Gradient Descent** is implemented to iterate through the line parameters (i.e. weight 1, 2, and bias) to produce a linear model with minimal error
 
-Algorithm which seperates data into 2 discrete classes through linear regression
+## Mathematical Equations
+Linear model: x1 x2 b
+Sigmoid activation function: (1/(1+e^-x)) 
+Cross entropy error:
+Gradient descent:
 
-Error calculated through the 
-
-sigmoid activation function (1/(1+e^-x)) to provide probability (>50% = positive region) used to classify alongise linear regression function
-
-cross entropy to calculate the total error for a linear model
-
-gradient descent to minimise the error to obtain a better linear model 
+## Demo Results
+Insert gif:
