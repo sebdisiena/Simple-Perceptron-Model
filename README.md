@@ -1,9 +1,9 @@
 # Simple Perceptron Model
 
 ## Objective
-Project to start learning about the simple perceptron neural network and supervised learning
-Labelled dataset is produced through 2 seperate normally distributed data points
-Aim: Seperate the data into 2 discrete classes through linear regression
+- Project to learn about the simple perceptron neural network and supervised learning
+- Labelled dataset is produced through 2 seperate normally distributed data points
+- **Aim:** Seperate the data into 2 discrete classes through linear regression
 
 ## Method
 Model utilises the **sigmoid activation function** to determine the probability for a data point to be placed within the positive region
