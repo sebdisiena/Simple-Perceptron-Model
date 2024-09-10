@@ -13,8 +13,9 @@
 ## Mathematical Equations
 - Single-layer perceptron model: ![Equation](https://latex.codecogs.com/svg.latex?\color{White}y%20%3D%20w_1%28x_1%29%20%2B%20w_2%28x_2%29%20%2B%20%5Ctext%7Bbias%7D)
 - Sigmoid activation function: ![Equation](https://latex.codecogs.com/svg.latex?\color{White}p%20%3D%20\frac{1}{1%2Be^{-y}}) 
-- Cross entropy error: ![Equation](https://latex.codecogs.com/svg.latex?\color{White}E%20%3D%20-\frac{1}{nrows}%20\cdot%20(\ln(p)z%20%2B%20\ln(1-p)(1-z))) *where z is the actual class and p is the probability of that class*
-- Gradient descent:
+- Cross entropy error: ![Equation](https://latex.codecogs.com/svg.latex?\color{White}E%20%3D%20-\frac{1}{nrows}%20\cdot%20(\ln(p)z%20%2B%20\ln(1-p)(1-z)))
+  *where z is the actual label and p is the prediction of that label*
+- Gradient descent: ![Equation](https://latex.codecogs.com/svg.latex?\color{White}\text{New%20Parameters}=[w_1,w_2,b]-\frac{(x,y)\cdot(p-z)}{\text{Number%20of%20Points}})
 
 ## Demo Results
 Insert gif:
