@@ -11,9 +11,9 @@
 - **Gradient Descent** is implemented to iterate through the line parameters (i.e. weight 1, 2, and bias) to produce a linear model with minimal error
 
 ## Mathematical Equations
-- Single-layer perceptron model: *y = w1(x1) + w2(x2) + bias*
+- Single-layer perceptron model: ![Equation](https://latex.codecogs.com/svg.latex?y%20%3D%20w_1%28x_1%29%20%2B%20w_2%28x_2%29%20%2B%20%5Ctext%7Bbias%7D) *y = w1(x1) + w2(x2) + bias*
 - Sigmoid activation function: *p = (1/(1+e^-y))* 
-- Cross entropy error: *E = -sum yln(p) + (1-y)(ln(1-p))* (1 / m) * (ln(p) * y + np.log(1 - p).T * (1 - y))
+- Cross entropy error: *E = -(1/nrows) * (ln(p)*z + ln(1 - p)*(1 - z)) where z is the actual class and p is the probability of that class*
 - *Gradient descent:*
 
 ## Demo Results
